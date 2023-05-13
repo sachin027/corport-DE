@@ -53,7 +53,7 @@ export default function LoginComponent() {
       <hr className="hr-text" data-content="or" />
       <div className="google-btn-container">
         <p className="go-to-signup">
-          New to LinkedIn?{" "}
+          New to CorPort?{" "}
           <span className="join-now" onClick={() => navigate("/register")}>
             Join now
           </span>

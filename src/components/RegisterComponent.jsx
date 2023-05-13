@@ -51,7 +51,7 @@ export default function RegisterComponent() {
             }
             type="email"
             className="common-input"
-            placeholder="Email or phone number"
+            placeholder="Email"
           />
           <input
             onChange={(event) =>
@@ -69,7 +69,7 @@ export default function RegisterComponent() {
       <hr class="hr-text" data-content="or" />
       <div className="google-btn-container">
         <p className="go-to-signup">
-          Already on LinkedIn?{" "}
+          Already on CorPort?{" "}
           <span className="join-now" onClick={() => navigate("/")}>
             Sign in
           </span>
